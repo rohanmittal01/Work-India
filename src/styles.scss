@@ -1,1 +1,149 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+@font-face {
+  font-family: font-family-NotoSans-Regular;
+  src: url(./assets/fonts/Noto_Sans/NotoSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: font-family-NotoSans-Bold;
+  src: url(./assets/fonts/Noto_Sans/NotoSans-Bold.ttf);
+}
+
+html, body{
+  background: #E5E5E5;
+}
+
+.font-family-NotoSans-Bold {
+  font-family: font-family-NotoSans-Bold;
+}
+.font-family-NotoSans-Regular {
+  font-family: font-family-NotoSans-Regular;
+}
+
+ol,ul{
+  padding: 0;
+}
+
+a{
+  color: black;
+}
+
+
+$icons-1x: "recharge" "./assets/icons/recharge.svg",
+"postJob" "./assets/icons/post-job.svg",
+"help" "./assets/icons/help.svg",
+"profile" "./assets/icons/profile.svg",
+"briefcase" "./assets/icons/ion_briefcase.svg";
+
+.work-india-img {
+  background-position: center;
+  background-size: 100%, 100%;
+  background-repeat: no-repeat;
+}
+
+@each $name, $url in $icons-1x {
+  .work-india-#{$name} {
+    background-image: url($url);
+    @extend .work-india-img;
+  }
+}
+
+.color-545454 {
+  color: #545454;
+}
+.color-7F7F7F {
+  color: #7f7f7f;
+}
+.color-7A7A7A {
+  color: #7a7a7a;
+}
+.font-weight-bold {
+  font-weight: 700;
+}
+.text-20 {
+  font-size: 20px;
+}
+.text-13 {
+  font-size: 13px;
+}
+.text-14 {
+  font-size: 14px;
+}
+.text-10 {
+  font-size: 10px;
+}
+
+.w-65 {
+  width: 65px;
+}
+
+.padding {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+.recharge {
+  padding: 7px 15px;
+  border-radius: 3px;
+  background: #1bae2a;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+  border: 0;
+  letter-spacing: 4%;
+}
+
+li{
+  cursor: pointer;
+}
+.action {
+  .li:first-child {
+    padding-top: 0px;
+  }
+  li:last-child {
+    padding-bottom: 0px;
+  }
+}
+
+.top-nav{
+  height: 61px;
+  width: 100%;
+}
+
+
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+  .col-xs-12{
+    width: 100%;
+  }
+}
+
+.bottom-nav {
+  list-style: none;
+  width: 100%;
+  height: 61px;
+  left: 0;
+  top: auto;
+  bottom: 0;
+  position: fixed;
+  margin: 0;
+  li {
+    img {
+      height: 100%;
+      text-align: center;
+    }
+    display: block;
+    float: left;
+    width: 20%;
+    height: 97px;
+    background: white;
+    .bottom-nav-icon {
+      margin-top: 12.5px;
+      width: 24px;
+      height: 24px;
+      display: block;
+    }
+  }
+}
+
