@@ -9,6 +9,10 @@ Angular
 - Phone Number: 8754583601
 - Email ID: rohanmittal01@gmail.com
 
+## Screenshot
+![Rohan Mittal submission](https://user-images.githubusercontent.com/43778138/126782760-2431043e-8110-485f-affe-81bb398e09bf.jpeg)
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
