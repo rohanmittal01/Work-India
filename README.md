@@ -1,8 +1,13 @@
 # Work India
-# Frontend submission by Rohan Mittal
+## Frontend submission by Rohan Mittal
 
-## Tech Stack Used:
+## Tech Stack Used
 Angular
+
+## Contact Details
+Name: Rohan Mittal
+Phone Number: 8754583601
+Email ID: rohanmittal01@gmail.com
 
 ## Development server
 
