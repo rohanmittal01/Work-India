@@ -1,6 +1,8 @@
-# RechargeApp
+# Work India
+# Frontend submission by Rohan Mittal
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.1.
+## Tech Stack Used:
+Angular
 
 ## Development server
 
