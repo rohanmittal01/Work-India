@@ -5,9 +5,9 @@
 Angular
 
 ## Contact Details
-Name: Rohan Mittal
-Phone Number: 8754583601
-Email ID: rohanmittal01@gmail.com
+- Name: Rohan Mittal
+- Phone Number: 8754583601
+- Email ID: rohanmittal01@gmail.com
 
 ## Development server
 
